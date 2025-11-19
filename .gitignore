@@ -1,10 +1,45 @@
-# Python-generated files
+# Python artifacts
 __pycache__/
 *.py[oc]
+*.egg-info
 build/
 dist/
 wheels/
-*.egg-info
+.cache/
 
-# Virtual environments
+# Testing and type checking
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.ruff_cache/
+
+# Editors and environments
 .venv
+.idea/
+.vscode/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+.env.*
+.secrets
+*.env
+*.pem
+*.key
+*.p12
+*.crt
+.aws/
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.ppt
+*.pptx
