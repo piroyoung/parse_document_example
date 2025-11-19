@@ -43,3 +43,5 @@ htmlcov/
 *.xlsx
 *.ppt
 *.pptx
+*.md
+
